@@ -221,21 +221,6 @@ main {
 }
 .contact dd { margin: 0; color: var(--ink-soft); line-height: 1.7; }
 
-/* ---------- Game ---------- */
-.play-note { color: var(--ink-soft); max-width: var(--measure); margin-bottom: 1.25rem; }
-.game-frame {
-  max-width: 760px;
-  border: 1px solid var(--rule);
-  border-radius: 6px;
-  background: var(--surface);
-  padding: 0.5rem;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-#runner { display: block; width: 100%; height: auto; cursor: pointer; outline: none; border-radius: 3px; }
-#runner:focus-visible { box-shadow: 0 0 0 2px var(--accent); }
-
 /* ---------- Footer ---------- */
 .site-footer {
   max-width: var(--max);
